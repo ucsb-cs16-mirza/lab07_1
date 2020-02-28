@@ -23,10 +23,8 @@ void addIntToEndOfList(LinkedList *list, int value)
 	   list->tail = p;
 
       // (4) Make both head and tail of this list point to p
-   }
-   else
-   {
-	  list->tail->next = p;
+   }else{
+	   list->tail->next = p;
 	  list->tail = p;
       // Add p at the end of the list.
 
